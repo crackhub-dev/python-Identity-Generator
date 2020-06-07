@@ -1,0 +1,90 @@
+from faker import Faker
+import time
+from datetime import datetime
+from faker.providers import internet
+import sys
+startTime = datetime.now()
+
+
+alert = raw_input("Press Enter to reveal your new Identity :)")
+
+
+fake = Faker()
+fake.add_provider(internet)
+
+
+
+#Below the Data gets Generated with the Faker module:
+print('Name:')
+print(fake.name())
+print ('-----------------------')
+print ('Address:')
+print(fake.address())
+print ('-----------------------')
+print ('Email:')
+print(fake.free_email())
+print ('-----------------------')
+print ('Phone Number:')
+print(fake.phone_number())
+print ('-----------------------')
+print ('Social Security Number:')
+print(fake.ssn())
+print ('-----------------------')
+print ('Credit Card:')
+print(fake.credit_card_full(card_type=None))
+print ('-----------------------')
+print ('IP Address:')
+print(fake.ipv4_private())
+print ('-----------------------')
+print ('Job:')
+print(fake.job())
+print ('-----------------------')
+print("If you need an IBAN, Here's and IBAN:")
+print(fake.iban())
+print ('-----------------------')
+print("User Agent:")
+print(fake.user_agent())
+print ('-----------------------')
+#Prints out Completion Time of script:
+print("This script took: ")
+print(datetime.now() - startTime)
+print("Seconds to complete.")
+
+print(fake)
+#Saves output in "Identity.txt"
+sys.stdout=open("identity.txt","w")
+print('Name:')
+print(fake.name())
+print ('-----------------------')
+print ('Address:')
+print(fake.address())
+print ('-----------------------')
+print ('Email:')
+print(fake.free_email())
+print ('-----------------------')
+print ('Phone Number:')
+print(fake.phone_number())
+print ('-----------------------')
+print ('Social Security Number:')
+print(fake.ssn())
+print ('-----------------------')
+print ('Credit Card:')
+print(fake.credit_card_full(card_type=None))
+print ('-----------------------')
+print ('IP Address:')
+print(fake.ipv4_private())
+print ('-----------------------')
+print ('Job:')
+print(fake.job())
+print ('-----------------------')
+print("If you need an IBAN, Here's and IBAN:")
+print(fake.iban())
+print ('-----------------------')
+print("User Agent:")
+print(fake.user_agent())
+print ('-----------------------')
+print("This script took: ")
+print(datetime.now() - startTime)
+print("Seconds to complete.")
+sys.stdout.close()
+
