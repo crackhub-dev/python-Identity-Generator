@@ -21,7 +21,7 @@ This Identity Generator Will set you up with a full personality! It's perfect fo
 - Job
 - IBAN
 - User Agent
-- Also, The outpud is saved in a File called "Identity.txt" after the script has finished so you don't have to keep the terminal open to copy and paste the data :)
+- Also, The output is saved in a File called "Identity.txt" after the script has finished so you don't have to keep the terminal open to copy and paste the data :)
 
 #### Usage:
 
