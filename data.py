@@ -6,7 +6,7 @@ import sys
 startTime = datetime.now()
 
 
-alert = raw_input("Press Enter to reveal your new Identity :)")
+alert = input("Press Enter to reveal your new Identity :)")
 
 
 fake = Faker()
