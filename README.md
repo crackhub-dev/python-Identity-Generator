@@ -1,10 +1,16 @@
 # Python Identity Generator
 
 #### Installation:
-
+Debian/Ubuntu:
 ```
-sudo apt install python(3)-pip
-pip(3) install Faker
+sudo apt install python-pip
+pip install Faker
+```
+Windows:
+https://www.python.org/downloads/
+```
+python -m pip install -U pip
+pip install Faker
 ```
 
 #### Features:
