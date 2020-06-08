@@ -8,8 +8,11 @@ pip install Faker
 ```
 Windows:
 https://www.python.org/downloads/
+for pip: 
+go to https://bootstrap.pypa.io/get-pip.py and save the .py file.
+run get-pip.py in cmd by typing ```python get-pip.py```
+verify installation with ```pip help ``` or ```pip --version ```
 ```
-python -m pip install -U pip
 pip install Faker
 ```
 
